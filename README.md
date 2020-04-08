@@ -15,7 +15,7 @@
 
 - [Finagle – Concurrent Programming with Futures](https://twitter.github.io/finagle/guide/Futures.html), [Your Server as a Function](https://monkey.org/~marius/funsrv.pdf)
 - [Futures for C++11 at Facebook](https://engineering.fb.com/developer-tools/futures-for-c-11-at-facebook/), [Folly Futures](https://github.com/facebook/folly/blob/master/folly/docs/Futures.md), 
-- [RFC](https://github.com/rust-lang/rfcs/blob/master/text/2592-futures.md), [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/), [Designing futures for Rust](http://aturon.github.io/blog/2016/09/07/futures-design/)
+- [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/), [Designing futures for Rust](http://aturon.github.io/blog/2016/09/07/futures-design/), [RFC](https://github.com/rust-lang/rfcs/blob/master/text/2592-futures.md)
 
 ## Coroutines
 
