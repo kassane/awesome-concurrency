@@ -15,7 +15,7 @@
 
 - [Finagle – Concurrent Programming with Futures](https://twitter.github.io/finagle/guide/Futures.html), [Your Server as a Function](https://monkey.org/~marius/funsrv.pdf)
 - [Futures for C++11 at Facebook](https://engineering.fb.com/developer-tools/futures-for-c-11-at-facebook/), [Folly Futures](https://github.com/facebook/folly/blob/master/folly/docs/Futures.md), 
-- [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/), [Designing futures for Rust](http://aturon.github.io/blog/2016/09/07/futures-design/)
+- [RFC](https://github.com/rust-lang/rfcs/blob/master/text/2592-futures.md), [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/), [Designing futures for Rust](http://aturon.github.io/blog/2016/09/07/futures-design/)
 
 ## Coroutines
 
@@ -27,7 +27,6 @@
 - [Coroutine Theory](https://lewissbaker.github.io/2017/09/25/coroutine-theory)
 - [C++ Coroutines: Understanding operator co_await](https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await)
 - [C++ Coroutines: Understanding the promise type](https://lewissbaker.github.io/2018/09/05/understanding-the-promise-type)
-
 
 ## Asynchronous Programming
 
