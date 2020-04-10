@@ -10,6 +10,8 @@
 - [Core Coroutines Proposal](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1063r2.pdf)
 - [Abseil Blog / Coroutine Types](https://abseil.io/blog/20180713-coroutine-types)
 
-## Applications 
+## Examples 
 
 - https://github.com/facebook/folly/blob/master/folly/futures/Future.h#L2652
+- https://habr.com/ru/post/348602/, https://github.com/ysynov/asio_coro/blob/master/async_tcp_echo_server.cpp
+- https://github.com/toby-allsopp/coroutine_monad/blob/master/maybe.h
