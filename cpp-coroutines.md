@@ -20,5 +20,5 @@
 ## Examples 
 
 - https://github.com/facebook/folly/blob/master/folly/futures/Future.h#L2652
-- https://habr.com/ru/post/348602/, https://github.com/ysynov/asio_coro/blob/master/async_tcp_echo_server.cpp
+- [Naked coroutines live](https://github.com/GorNishanov/await/tree/master/2017_CppCon/live)
 - https://github.com/toby-allsopp/coroutine_monad/blob/master/maybe.h
