@@ -14,8 +14,8 @@
 
 ----
 
-[Incremental Approach: Coroutine TS + Core Coroutines](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1362r0.pdf)
-[Better Keywords f](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1485r1.html)
+- [Incremental Approach: Coroutine TS + Core Coroutines](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1362r0.pdf)
+- [Better keywords for the Coroutines](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1485r1.html)
 
 ## Examples 
 
