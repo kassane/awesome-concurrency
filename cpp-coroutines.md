@@ -3,6 +3,7 @@
 - https://github.com/GorNishanov/await
 - [Asymmetric Transfer](https://lewissbaker.github.io/)
 - https://github.com/lewissbaker/cppcoro
+- [Customization Points](https://hackmd.io/@redbeard0531/S1H_loeA7?type=view)
 
 ## Core Coroutines
 
