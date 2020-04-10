@@ -4,6 +4,7 @@
 - [Asymmetric Transfer](https://lewissbaker.github.io/)
 - https://github.com/lewissbaker/cppcoro
 - [Customization Points](https://hackmd.io/@redbeard0531/S1H_loeA7?type=view)
+- [Add coroutine task type](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1056r0.html)
 
 ## Core Coroutines
 
@@ -14,6 +15,7 @@
 ----
 
 [Incremental Approach: Coroutine TS + Core Coroutines](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1362r0.pdf)
+[Better Keywords f](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1485r1.html)
 
 ## Examples 
 
