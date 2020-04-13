@@ -22,3 +22,10 @@
 - https://github.com/facebook/folly/blob/master/folly/futures/Future.h#L2652
 - [Naked coroutines live](https://github.com/GorNishanov/await/tree/master/2017_CppCon/live)
 - https://github.com/toby-allsopp/coroutine_monad/blob/master/maybe.h
+
+----
+
+## TODO
+
+- [Fibers under the magnifying glass](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1364r0.pdf)
+- [Coroutines: Use-cases and Trade-offs](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1493r0.pdf)
