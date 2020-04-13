@@ -10,6 +10,12 @@
 - https://github.com/lewissbaker/cppcoro
 - https://github.com/facebook/folly/tree/master/folly/experimental/coro
 
+## C++ IS
+
+- https://eel.is/c++draft/dcl.fct.def.coroutine
+- https://eel.is/c++draft/expr.await
+
+
 ## Core Coroutines
 
 - [Coroutines TS Use Cases and Design Issues](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p0973r0.pdf)
