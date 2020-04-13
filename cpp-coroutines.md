@@ -27,7 +27,6 @@
 - [Naked coroutines live](https://github.com/GorNishanov/await/tree/master/2017_CppCon/live)
 - https://github.com/toby-allsopp/coroutine_monad/blob/master/maybe.h
 
-
 ----
 
 ## TODO
@@ -39,3 +38,4 @@
 ---
 
 - [C++2a Coroutines and dangling references](https://quuxplusone.github.io/blog/2019/07/10/ways-to-get-dangling-references-with-coroutines/)
+- [C++ doesn’t know how to do customization points that aren’t operators](https://quuxplusone.github.io/blog/2018/08/23/customization-point-or-named-function-pick-one/)
