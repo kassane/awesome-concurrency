@@ -34,6 +34,7 @@
 
 - [Fibers under the magnifying glass](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1364r0.pdf)
 - [Coroutines: Use-cases and Trade-offs](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1493r0.pdf)
+- [P1063 vs Coroutines TS: Consensus on High-Level Semantics](https://accu.org/index.php/journals/2564)
 
 ---
 
