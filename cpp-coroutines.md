@@ -34,3 +34,7 @@
 
 - [Fibers under the magnifying glass](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1364r0.pdf)
 - [Coroutines: Use-cases and Trade-offs](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1493r0.pdf)
+
+---
+
+- [C++2a Coroutines and dangling references](https://quuxplusone.github.io/blog/2019/07/10/ways-to-get-dangling-references-with-coroutines/)
