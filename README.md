@@ -30,10 +30,11 @@
 
 ## Asynchronous Programming
 
-- [Rust's Journey to Async/Await](https://www.youtube.com/watch?v=lJ3NC-R3gSI)
 - [Асинхронность в программировании](https://habr.com/ru/company/jugru/blog/446562/)
 - [Асинхронность: назад в будущее](https://habr.com/ru/post/201826/)
 - [Kotlin Coroutines Proposal](https://github.com/Kotlin/KEEP/blob/master/proposals/coroutines.md)
+- [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/), [Designing futures for Rust](http://aturon.github.io/blog/2016/09/07/futures-design/)
+
 
 ### Async / await
 
