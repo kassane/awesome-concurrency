@@ -18,6 +18,11 @@
 - [Futures for C++11 at Facebook](https://engineering.fb.com/developer-tools/futures-for-c-11-at-facebook/), [Folly Futures](https://github.com/facebook/folly/blob/master/folly/docs/Futures.md), 
 - [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/), [Designing futures for Rust](http://aturon.github.io/blog/2016/09/07/futures-design/), [RFC](https://github.com/rust-lang/rfcs/blob/master/text/2592-futures.md)
 
+## Fibers
+
+- [Project Loom: Fibers and Continuations for the Java Virtual Machine](https://cr.openjdk.java.net/~rpressler/loom/Loom-Proposal.html)
+- [State of Loom, Part 1](http://cr.openjdk.java.net/~rpressler/loom/loom/sol1_part1.html), [Part2](http://cr.openjdk.java.net/~rpressler/loom/loom/sol1_part2.html)
+
 ## Coroutines
 
 ### Stackless
@@ -35,7 +40,6 @@
 - [Асинхронность: назад в будущее](https://habr.com/ru/post/201826/)
 - [Kotlin Coroutines Proposal](https://github.com/Kotlin/KEEP/blob/master/proposals/coroutines.md)
 - [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/), [Designing futures for Rust](http://aturon.github.io/blog/2016/09/07/futures-design/)
-
 
 ### Async / await
 
