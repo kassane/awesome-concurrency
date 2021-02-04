@@ -1,3 +1,5 @@
+# Awesome Concurrency
+
 ## Memory consistency models
 
 - [Memory Barriers: a Hardware View for Software Hackers](http://www.puppetmastertrading.com/images/hwViewForSwHackers.pdf)
