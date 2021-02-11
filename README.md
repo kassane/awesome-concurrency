@@ -36,6 +36,13 @@
 - [C++ Coroutines: Understanding operator co_await](https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await)
 - [C++ Coroutines: Understanding the promise type](https://lewissbaker.github.io/2018/09/05/understanding-the-promise-type)
 
+## Stacks
+
+- [Segmented Stacks in LLVM](https://llvm.org/docs/SegmentedStacks.html)
+- [Rust / Abandoning segmented stacks in Rust](https://mail.mozilla.org/pipermail/rust-dev/2013-November/006314.html)
+- [Go / How Stacks are Handled in Go](https://blog.cloudflare.com/how-stacks-are-handled-in-go/), [Continious Stacks Design Doc](https://docs.google.com/document/d/1wAaf1rYoM4S4gtnPh0zOlGzWtrZFQ5suE8qr2sD8uWQ/pub)
+- [Rust / Futures and Segmented Stacks](https://without.boats/blog/futures-and-segmented-stacks/)
+
 ## Asynchronous Programming
 
 - [Асинхронность в программировании](https://habr.com/ru/company/jugru/blog/446562/)
