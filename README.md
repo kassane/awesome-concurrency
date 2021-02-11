@@ -43,6 +43,20 @@
 - [Go / How Stacks are Handled in Go](https://blog.cloudflare.com/how-stacks-are-handled-in-go/), [Continious Stacks Design Doc](https://docs.google.com/document/d/1wAaf1rYoM4S4gtnPh0zOlGzWtrZFQ5suE8qr2sD8uWQ/pub)
 - [Rust / Futures and Segmented Stacks](https://without.boats/blog/futures-and-segmented-stacks/)
 
+## Schedulers
+
+- [Making the Tokio scheduler 10x faster](https://tokio.rs/blog/2019-10-scheduler/)
+- [Rust / Work-Stealing Scheduler Discussion](https://github.com/rust-lang/rust/issues/3095)
+- [Scalable Go Scheduler Design Doc](https://docs.google.com/document/d/1TTj4T2JO42uD5ID9e89oa0sLKhJYD0Y_kqxDv3I3XMw/edit)
+- ["Runtime scheduling: theory and reality" by Eben Freeman](https://www.youtube.com/watch?v=8g9fG7cApbc)
+
+### Impls
+
+- [xv6](https://github.com/guilleiguaran/xv6/blob/4ce832ddd280a4cea36e16115ddeaea74213314e/proc.c#L258)
+- [Linux](https://github.com/torvalds/linux/blob/master/kernel/sched/core.c#L4921)
+- [Golang](https://golang.org/src/runtime/proc.go)
+
+
 ## Asynchronous Programming
 
 - [Асинхронность в программировании](https://habr.com/ru/company/jugru/blog/446562/)
