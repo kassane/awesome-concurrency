@@ -13,6 +13,40 @@
 - [Weak Memory Consistency](https://people.mpi-sws.org/~viktor/wmc/)
 - [Weakly Consistent Concurrency](https://www.cs.tau.ac.il/~orilahav/seminar18/index.html)
 
+### Examples
+
+#### C++
+
+- [`intro.multithread`](https://eel.is/c++draft/intro.multithread)
+- [`atomics.order`](https://eel.is/c++draft/atomics.order)
+- [`atomics.fences`](https://eel.is/c++draft/atomics.fences)
+
+#### Rust
+
+- [The Rust Reference / Memory model](https://doc.rust-lang.org/reference/memory-model.html)
+- [The Rustonomicon / Atomics](https://doc.rust-lang.org/nomicon/atomics.html)
+
+#### Java 
+
+- [Java Memory Model](https://docs.oracle.com/javase/specs/jls/se7/html/jls-17.html#jls-17.4)
+
+#### Go
+
+- [Go Memory Model](https://golang.org/ref/mem)
+- [Don't be clever](https://golang.org/ref/mem#tmp_1)
+
+#### Misc
+
+- [LLVM Atomic Instructions and Concurrency Guide](https://llvm.org/docs/Atomics.html)
+- [Adopt a Zig Memory Model](https://github.com/ziglang/zig/issues/6396)
+
+### Atomics impl
+
+- [C/C++11 mappings to processors](https://www.cl.cam.ac.uk/~pes20/cpp/cpp0xmappings.html)
+- [The JSR-133 Cookbook for Compiler Writers](http://gee.cs.oswego.edu/dl/jmm/cookbook.html)
+
+----
+
 ## Futures
 
 - [Futures and Promises](http://dist-prog-book.com/chapter/2/futures.html)
