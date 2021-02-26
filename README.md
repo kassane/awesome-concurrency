@@ -125,12 +125,22 @@
 - Rust: [CDSCHECKER: Checking Concurrent Data Structures Written with C/C++ Atomics](http://demsky.eecs.uci.edu/publications/c11modelcheck.pdf), [tokio-rs/loom](https://github.com/tokio-rs/loom)
 - Kotlin: [How We Test Concurrent Primitives in Kotlin Coroutines](https://blog.jetbrains.com/kotlin/2021/02/how-we-test-concurrent-primitives-in-kotlin-coroutines/)
 
+## Fearless Concurrency
+
+- Rust: [Fearless Concurrency](https://doc.rust-lang.org/book/ch16-00-concurrency.html)
+- Pony: [Reference capabilities](https://www.ponylang.io/learn/#reference-capabilities)
+- C++: [Clang Thread-Safety Analysis](https://research.google.com/pubs/archive/42958.pdf)
+
+---
+
 ## Consistency models for concurrent objects
 
 - [Linearizability: A Correctness Condition for Concurrent Objects ](https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf)
 - [Consistency Models Map](https://jepsen.io/consistency)
 - [Linearizability versus Serializability](http://www.bailis.org/blog/linearizability-versus-serializability/)
 - [Strong consistency models](https://aphyr.com/posts/313-strong-consistency-models)
+
+---
 
 ## Transactions
  
