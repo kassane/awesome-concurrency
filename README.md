@@ -114,16 +114,16 @@
 ## Structured Concurrency
 
 - [Notes on structured concurrency, or: Go statement considered harmful](https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/)
-- [Roman Elizarov – Structured concurrency](https://medium.com/@elizarov/structured-concurrency-722d765aa952)
 - [Structured Concurrency Group](https://trio.discourse.group/c/structured-concurrency), [Resources](https://trio.discourse.group/t/structured-concurrency-resources/21)
+- [Roman Elizarov – Structured concurrency](https://medium.com/@elizarov/structured-concurrency-722d765aa952)
 - [Lewiss Baker - Structured Concurrency: Writing Safer Concurrent Code with Coroutines and Algorithms](https://www.youtube.com/watch?v=1Wy5sq3s2rg)
 - [Eric Niebler - Structured Concurrency](https://ericniebler.com/2020/11/08/structured-concurrency/)
 
 ## Verification
 
-- [ThreadSanitizer – data race detection in practice](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35604.pdf), [compiler-rt/lib/tsan/rtl](https://github.com/llvm-mirror/compiler-rt/tree/master/lib/tsan/rtl)
-- [CDSCHECKER: Checking Concurrent Data Structures Written with C/C++ Atomics](http://demsky.eecs.uci.edu/publications/c11modelcheck.pdf), [tokio-rs/loom](https://github.com/tokio-rs/loom)
-
+- C++/Go: [ThreadSanitizer – data race detection in practice](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35604.pdf), [compiler-rt/lib/tsan/rtl](https://github.com/llvm-mirror/compiler-rt/tree/master/lib/tsan/rtl)
+- Rust: [CDSCHECKER: Checking Concurrent Data Structures Written with C/C++ Atomics](http://demsky.eecs.uci.edu/publications/c11modelcheck.pdf), [tokio-rs/loom](https://github.com/tokio-rs/loom)
+- Kotlin: [How We Test Concurrent Primitives in Kotlin Coroutines](https://blog.jetbrains.com/kotlin/2021/02/how-we-test-concurrent-primitives-in-kotlin-coroutines/)
 
 ## Consistency models for concurrent objects
 
@@ -134,7 +134,7 @@
 
 ## Transactions
  
-- [ Martin Kleppmann – Transactions: myths, surprises and opportunities](https://www.youtube.com/watch?v=5ZjhNTM8XU8), [слайды и ссылки](https://martin.kleppmann.com/2015/09/26/transactions-at-strange-loop.html)
+- [ Martin Kleppmann – Transactions: myths, surprises and opportunities](https://www.youtube.com/watch?v=5ZjhNTM8XU8), [slides & references](https://martin.kleppmann.com/2015/09/26/transactions-at-strange-loop.html)
 - [A Critique of ANSI SQL Isolation Levels](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-95-51.pdf)
 - [Serializable Isolation for Snapshot Databases](https://ses.library.usyd.edu.au/bitstream/2123/5353/1/michael-cahill-2009-thesis.pdf)
 - [What Write Skew Looks Like](https://www.cockroachlabs.com/blog/what-write-skew-looks-like/)
@@ -152,7 +152,7 @@
 
 ## Hardware Transactional Memory
 
-- [Maurice Herlihy – Transactional Memory](https://www.youtube.com/watch?v=ZkUrl8BZHjk), [слайды](http://neerc.ifmo.ru/sptcc/slides/slides-herlihy.pdf)
+- [Maurice Herlihy – Transactional Memory](https://www.youtube.com/watch?v=ZkUrl8BZHjk), [slides](http://neerc.ifmo.ru/sptcc/slides/slides-herlihy.pdf)
 - [Gil Tene – Understanding Hardware Transactional Memory](https://www.youtube.com/watch?v=0jy4Sc_IY7o)
 - [Is Parallel Programming Hard, And, If So, What Can You Do About It?](https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html), 17.3
 - [Глава 16 – Programming with Intel Transactional Synchronization Extensions](https://software.intel.com/sites/default/files/managed/39/c5/325462-sdm-vol-1-2abcd-3abcd.pdf)
