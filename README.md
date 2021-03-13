@@ -21,6 +21,8 @@
 - [`atomics.order`](https://eel.is/c++draft/atomics.order)
 - [`atomics.fences`](https://eel.is/c++draft/atomics.fences)
 
+[Index](cpp-memory-model.md)
+
 #### Rust
 
 - [The Rust Reference / Memory model](https://doc.rust-lang.org/reference/memory-model.html)
