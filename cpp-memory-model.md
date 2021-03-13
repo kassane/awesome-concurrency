@@ -1,4 +1,4 @@
-# C++ Memory Model
+# C++ Memory Model Index
 
 - [sequential consistency for drf programs](https://eel.is/c++draft/atomics.order#7)
 - [S (synchronization order)](https://eel.is/c++draft/atomics.order#4)  
