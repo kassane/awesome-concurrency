@@ -92,6 +92,7 @@
 - [xv6](https://github.com/guilleiguaran/xv6/blob/4ce832ddd280a4cea36e16115ddeaea74213314e/proc.c#L258)
 - [Linux](https://github.com/torvalds/linux/blob/291009f656e8eaebbdfd3a8d99f6b190a9ce9deb/kernel/sched/core.c#L4921)
 - [Golang](https://golang.org/src/runtime/proc.go)
+- [Rust / Tokio](https://github.com/tokio-rs/tokio/blob/master/tokio/src/runtime/thread_pool/worker.rs)
 
 
 ## Asynchronous Programming
