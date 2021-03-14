@@ -1,6 +1,6 @@
 # C++ Memory Model Index
 
-- [sequential consistency for drf programs](https://eel.is/c++draft/atomics.order#7)
+- [sequential consistency for drf programs](https://eel.is/c++draft/intro.races#note-21), [sequential consistency vs weak ordering](https://eel.is/c++draft/atomics.order#7)
 - [S (synchronization order)](https://eel.is/c++draft/atomics.order#4)  
 - [synchronizes with](https://eel.is/c++draft/atomics.order#2), [release sequence](https://eel.is/c++draft/intro.races#def:release_sequence)
 - [carries a dependency](https://eel.is/c++draft/intro.multithread#def:carries_a_dependency), [dependency-ordered before](https://eel.is/c++draft/intro.races#def:dependency-ordered_before)
