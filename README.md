@@ -158,6 +158,7 @@
 ### Memory Management
 
 - [Hazard Pointers: Safe Memory Reclamation for Lock-Free Objects](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.395.378&rep=rep1&type=pdf)
+- [Differential Reference Counting](http://www.1024cores.net/home/lock-free-algorithms/object-life-time-management/differential-reference-counting)  
 - [folly / `AtomicSharedPtr`](https://github.com/facebook/folly/blob/master/folly/concurrency/AtomicSharedPtr.h)
 
 ### Misc
