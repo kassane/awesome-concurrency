@@ -145,6 +145,28 @@
 
 ---
 
+## Lock-freedom
+
+### Data Structures / Algorithms
+
+- [Simple, Fast, and Practical Non-Blocking and Blocking Concurrent Queue Algorithms](https://www.cs.rochester.edu/~scott/papers/1996_PODC_queues.pdf)
+- [A Scalable Lock-free Stack Algorithm](https://people.csail.mit.edu/shanir/publications/Lock_Free.pdf)
+- [The Baskets Queue](https://people.csail.mit.edu/shanir/publications/Baskets%20Queue.pdf)
+- [Lock-free deques and doubly linked lists](http://www.cse.chalmers.se/~tsigas/papers/Lock-Free-Deques-Doubly-Lists-JPDC.pdf)
+- [A Practical Multi-Word Compare-and-Swap Operation](https://www.cl.cam.ac.uk/research/srg/netos/papers/2002-casn.pdf)
+
+### Memory Management
+
+- [Hazard Pointers: Safe Memory Reclamation for Lock-Free Objects](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.395.378&rep=rep1&type=pdf)
+- [folly / `AtomicSharedPtr`](https://github.com/facebook/folly/blob/master/folly/concurrency/AtomicSharedPtr.h)
+
+### Misc
+
+- [Roman Elizarov — Lock-Free Algorithms for Kotlin Coroutines](https://www.youtube.com/watch?v=W2dOOBN1OQI)
+- [Lock-free структуры данных](https://habr.com/en/post/195770/)
+
+---
+
 ## Transactions
  
 - [ Martin Kleppmann – Transactions: myths, surprises and opportunities](https://www.youtube.com/watch?v=5ZjhNTM8XU8), [slides & references](https://martin.kleppmann.com/2015/09/26/transactions-at-strange-loop.html)
