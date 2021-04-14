@@ -85,6 +85,7 @@
 - [Rust / Work-Stealing Scheduler Discussion](https://github.com/rust-lang/rust/issues/3095)
 - [Scalable Go Scheduler Design Doc](https://docs.google.com/document/d/1TTj4T2JO42uD5ID9e89oa0sLKhJYD0Y_kqxDv3I3XMw/edit)
 - [Dmitry Vyukov — Go scheduler: Implementing language with lightweight concurrency](https://www.youtube.com/watch?v=-K11rY57K7k)
+- [GopherCon 2020: Austin Clements - Pardon the Interruption: Loop Preemption in Go 1.14](https://www.youtube.com/watch?v=1I1WmeSjRSw)
 - ["Runtime scheduling: theory and reality" by Eben Freeman](https://www.youtube.com/watch?v=8g9fG7cApbc)
 
 ### Impls
