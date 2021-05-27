@@ -128,6 +128,7 @@
 - C++/Go: [ThreadSanitizer – data race detection in practice](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35604.pdf), [compiler-rt/lib/tsan/rtl](https://github.com/llvm-mirror/compiler-rt/tree/master/lib/tsan/rtl)
 - Rust: [CDSCHECKER: Checking Concurrent Data Structures Written with C/C++ Atomics](http://demsky.eecs.uci.edu/publications/c11modelcheck.pdf), [tokio-rs/loom](https://github.com/tokio-rs/loom)
 - Kotlin: [How We Test Concurrent Primitives in Kotlin Coroutines](https://blog.jetbrains.com/kotlin/2021/02/how-we-test-concurrent-primitives-in-kotlin-coroutines/)
+- [Dynamic Partial-Order Reduction for Model Checking Software](https://patricegodefroid.github.io/public_psfiles/popl2005.pdf)
 
 ## Fearless Concurrency
 
