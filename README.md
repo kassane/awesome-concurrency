@@ -95,6 +95,10 @@
 - [Golang](https://golang.org/src/runtime/proc.go)
 - [Rust / Tokio](https://github.com/tokio-rs/tokio/blob/master/tokio/src/runtime/thread_pool/worker.rs)
 
+## Channels
+
+- [Go channels on steroids](https://docs.google.com/document/d/1yIAYmbvL3JxOKOjuCyon7JhW4cSv1wy5hC0ApeGMV9s/pub)
+- [Scalable FIFO Channels for Programming via Communicating Sequential Processes](https://nkoval.com/publications/europar19-channels.pdf)
 
 ## Asynchronous Programming
 
@@ -123,12 +127,22 @@
 - [Lewis Baker - Structured Concurrency: Writing Safer Concurrent Code with Coroutines and Algorithms](https://www.youtube.com/watch?v=1Wy5sq3s2rg)
 - [Eric Niebler - Structured Concurrency](https://ericniebler.com/2020/11/08/structured-concurrency/)
 
+## Data race detection
+
+- [ThreadSanitizer – data race detection in practice](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35604.pdf), [compiler-rt/lib/tsan/rtl](https://github.com/llvm-mirror/compiler-rt/tree/master/lib/tsan/rtl)
+- [FastTrack: Efficient and Precise Dynamic Race Detection](https://users.soe.ucsc.edu/~cormac/papers/pldi09.pdf)
+
 ## Verification
 
-- C++/Go: [ThreadSanitizer – data race detection in practice](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35604.pdf), [compiler-rt/lib/tsan/rtl](https://github.com/llvm-mirror/compiler-rt/tree/master/lib/tsan/rtl)
-- Rust: [CDSCHECKER: Checking Concurrent Data Structures Written with C/C++ Atomics](http://demsky.eecs.uci.edu/publications/c11modelcheck.pdf), [tokio-rs/loom](https://github.com/tokio-rs/loom)
-- Kotlin: [How We Test Concurrent Primitives in Kotlin Coroutines](https://blog.jetbrains.com/kotlin/2021/02/how-we-test-concurrent-primitives-in-kotlin-coroutines/)
 - [Dynamic Partial-Order Reduction for Model Checking Software](https://patricegodefroid.github.io/public_psfiles/popl2005.pdf)
+- [Finding and Reproducing Heisenbugs in Concurrent Programs](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/osdi2008-CHESS.pdf)
+- [CDSCHECKER: Checking Concurrent Data Structures Written with C/C++ Atomics](http://demsky.eecs.uci.edu/publications/c11modelcheck.pdf)
+- [How We Test Concurrent Primitives in Kotlin Coroutines](https://blog.jetbrains.com/kotlin/2021/02/how-we-test-concurrent-primitives-in-kotlin-coroutines/)
+
+### Tools
+
+- Rust: https://github.com/tokio-rs/loom
+- Kotlin: https://github.com/Kotlin/kotlinx-lincheck
 
 ## Fearless Concurrency
 
@@ -160,7 +174,8 @@
 ### Memory Management
 
 - [Hazard Pointers: Safe Memory Reclamation for Lock-Free Objects](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.395.378&rep=rep1&type=pdf)
-- [Differential Reference Counting](http://www.1024cores.net/home/lock-free-algorithms/object-life-time-management/differential-reference-counting)  
+- [Differential Reference Counting](http://www.1024cores.net/home/lock-free-algorithms/object-life-time-management/differential-reference-counting)
+- [Implementing a Lock-free `atomic_shared_ptr`](https://github.com/brycelelbach/cppnow_presentations_2016/blob/master/01_wednesday/implementing_a_lock_free_atomic_shared_ptr.pdf)
 - [folly / `AtomicSharedPtr`](https://github.com/facebook/folly/blob/master/folly/concurrency/AtomicSharedPtr.h)
 
 ### Misc
