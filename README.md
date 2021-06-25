@@ -1,5 +1,11 @@
 # Awesome Concurrency
 
+# Sub-lists
+
+- [Libraries](libs.md)
+
+---
+
 ## Memory consistency models
 
 - [Memory Barriers: a Hardware View for Software Hackers](http://www.puppetmastertrading.com/images/hwViewForSwHackers.pdf)
@@ -21,7 +27,7 @@
 - [`atomics.order`](https://eel.is/c++draft/atomics.order)
 - [`atomics.fences`](https://eel.is/c++draft/atomics.fences)
 
-[Index](cpp-memory-model.md)
+[Index](cpp-mm-index.md)
 
 #### Rust
 
