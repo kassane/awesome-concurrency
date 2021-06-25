@@ -8,12 +8,10 @@
   
 ## C++
 
-### `Folly`
-- [futures](https://github.com/facebook/folly/tree/master/folly/futures)
-- [executors](https://github.com/facebook/folly/tree/master/folly/executors)
-- [fibers](https://github.com/facebook/folly/tree/master/folly/fibers)
-
-
+- `folly`
+  - [futures](https://github.com/facebook/folly/tree/master/folly/futures)
+  - [executors](https://github.com/facebook/folly/tree/master/folly/executors)
+  - [fibers](https://github.com/facebook/folly/tree/master/folly/fibers)
 - [libunifex](https://github.com/facebookexperimental/libunifex)
 - [asio](https://github.com/chriskohlhoff/asio)
 - [marl](https://github.com/google/marl)  
