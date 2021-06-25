@@ -37,10 +37,9 @@
 - [Go Memory Model](https://golang.org/ref/mem)
 - [Don't be clever](https://golang.org/ref/mem#tmp_1)
 
-#### Misc
+#### LLVM
 
 - [LLVM Atomic Instructions and Concurrency Guide](https://llvm.org/docs/Atomics.html)
-- [Adopt a Zig Memory Model](https://github.com/ziglang/zig/issues/6396)
 
 ### Atomics impl
 
@@ -124,8 +123,12 @@
 - [Notes on structured concurrency, or: Go statement considered harmful](https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/)
 - [Structured Concurrency Group](https://trio.discourse.group/c/structured-concurrency), [Resources](https://trio.discourse.group/t/structured-concurrency-resources/21)
 - [Roman Elizarov – Structured concurrency](https://medium.com/@elizarov/structured-concurrency-722d765aa952)
-- [Lewis Baker - Structured Concurrency: Writing Safer Concurrent Code with Coroutines and Algorithms](https://www.youtube.com/watch?v=1Wy5sq3s2rg)
-- [Eric Niebler - Structured Concurrency](https://ericniebler.com/2020/11/08/structured-concurrency/)
+- [Lewis Baker – Structured Concurrency: Writing Safer Concurrent Code with Coroutines and Algorithms](https://www.youtube.com/watch?v=1Wy5sq3s2rg)
+- [Eric Niebler – Structured Concurrency](https://ericniebler.com/2020/11/08/structured-concurrency/)
+
+## Cancellation
+
+- [Timeouts and cancellation for humans](https://vorpus.org/blog/timeouts-and-cancellation-for-humans/#cancel-scopes-trio-s-human-friendly-solution-for-timeouts-and-cancellation)
 
 ## Data race detection
 
@@ -149,6 +152,7 @@
 - Rust: [Fearless Concurrency](https://doc.rust-lang.org/book/ch16-00-concurrency.html)
 - Pony: [Reference capabilities](https://www.ponylang.io/learn/#reference-capabilities)
 - C++: [Clang Thread-Safety Analysis](https://research.google.com/pubs/archive/42958.pdf)
+- [Joe Duffy (Project Midori) – 15 Years of Concurrency](http://joeduffyblog.com/2016/11/30/15-years-of-concurrency/)
 
 ---
 
