@@ -1,10 +1,11 @@
-# Libraries
+# Libraries / runtimes
 
 - [crossbeam](https://github.com/crossbeam-rs/crossbeam) (Rust)
-- [tokio](https://github.com/tokio-rs/tokio) (Rust)
-- [finagle](https://github.com/twitter/finagle) (Scala)
-- [zio](https://github.com/zio/zio) (Scala)
-- [trio](https://github.com/python-trio/trio) (Python)
+- [Tokio](https://tokio.rs/), [github](https://github.com/tokio-rs/tokio) (Rust)
+- [Finagle](http://twitter.github.io/finagle/), [github](https://github.com/twitter/finagle) (Scala)
+- [ZIO](https://zio.dev/), [github](https://github.com/zio/zio) (Scala)
+- [Cats Effect](https://typelevel.org/cats-effect/), [github](https://github.com/typelevel/cats-effect) (Scala)  
+- [Trio](https://trio.readthedocs.io/en/stable/), [github](https://github.com/python-trio/trio) (Python)
   
 ## C++
 
