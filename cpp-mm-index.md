@@ -3,7 +3,7 @@
 - [sequential consistency for drf programs](https://eel.is/c++draft/intro.races#note-21), [sequential consistency vs weak ordering](https://eel.is/c++draft/atomics.order#7)
 - [S (synchronization order)](https://eel.is/c++draft/atomics.order#4)
 - [sequenced before](https://eel.is/c++draft/intro.execution#def:sequenced_before)  
-- [synchronizes with](https://eel.is/c++draft/atomics.order#2), [release sequence](https://eel.is/c++draft/intro.races#def:release_sequence)
+- [synchronizes with](https://eel.is/c++draft/atomics.order#2), [release sequence](https://eel.is/c++draft/intro.races#def:release_sequence), [acquire fence](https://eel.is/c++draft/atomics.fences#4)
 - [carries a dependency](https://eel.is/c++draft/intro.multithread#def:carries_a_dependency), [dependency-ordered before](https://eel.is/c++draft/intro.races#def:dependency-ordered_before)
 - [modification order](https://eel.is/c++draft/intro.races#def:modification_order), [read the last value](https://eel.is/c++draft/atomics.order#10)
 - [stores eventually visible](https://eel.is/c++draft/atomics.order#11)
