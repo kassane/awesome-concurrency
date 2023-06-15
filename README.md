@@ -8,13 +8,17 @@
 
 ## Memory consistency models
 
+- [Atomic vs. Non-Atomic Operations](https://preshing.com/20130618/atomic-vs-non-atomic-operations/)
+- [Atomic reference counting (with Zig code samples)](https://ravendb.net/articles/atomic-reference-counting-with-zig-code-samples)
 - [Memory Barriers: a Hardware View for Software Hackers](http://www.puppetmastertrading.com/images/hwViewForSwHackers.pdf)
 - [Memory Models: A Case For Rethinking Parallel Languages and Hardware](https://cacm.acm.org/magazines/2010/8/96610-memory-models-a-case-for-rethinking-parallel-languages-and-hardware/pdf)
 - [Go Memory Model](https://golang.org/ref/mem), [Don't be clever](https://golang.org/ref/mem#tmp_1)
 - [Java Memory Model](https://docs.oracle.com/javase/specs/jls/se7/html/jls-17.html#jls-17.4)
 - [Foundations of the C++ Concurrency Memory Model](http://www.hpl.hp.com/techreports/2008/HPL-2008-56.pdf)
 - [Explanation of the Linux-Kernel Memory Consistency Model](https://github.com/torvalds/linux/tree/master/tools/memory-model/Documentation) 
+- [C++ Memory Ordering at Compile Time](https://preshing.com/20120625/memory-ordering-at-compile-time/)
 - [The Problem of Programming Language Concurrency Semantics](https://www.cl.cam.ac.uk/~jp622/the_problem_of_programming_language_concurrency_semantics.pdf)
+- [Understandnig Atomics and Memory Ordering](http://kprotty.me/2021/04/08/understanding-atomics-and-memory-ordering.html)
 - [Weak memory concurrency in C/C++11](https://youtu.be/mOqu8vGSysc)
 - [Weak Memory Consistency](https://people.mpi-sws.org/~viktor/wmc/)
 - [Weakly Consistent Concurrency](https://www.cs.tau.ac.il/~orilahav/seminar18/index.html)
@@ -99,6 +103,7 @@
 - [Linux](https://github.com/torvalds/linux/blob/291009f656e8eaebbdfd3a8d99f6b190a9ce9deb/kernel/sched/core.c#L4921)
 - [Golang](https://golang.org/src/runtime/proc.go)
 - [Rust / Tokio](https://github.com/tokio-rs/tokio/blob/master/tokio/src/runtime/scheduler/multi_thread/worker.rs)
+- [Zig](https://github.com/ziglang/zig/blob/master/lib/std/event/loop.zig)
 
 ## Channels
 
@@ -123,6 +128,7 @@
 - C#: [Asynchrony in C# 5 Part Six: Whither async?](https://docs.microsoft.com/en-us/archive/blogs/ericlippert/asynchrony-in-c-5-part-six-whither-async)
 - Rust: [A final proposal for await syntax](https://boats.gitlab.io/blog/post/await-decision/), [Await Syntax Write Up](https://paper.dropbox.com/doc/Await-Syntax-Write-Up--AcIbhZ1tPTCloXb2fmFpBTt~Ag-t9NlOSeI4RQ8AINsaSSyJ)
 - Kotlin: [How do you color your functions?](https://medium.com/@elizarov/how-do-you-color-your-functions-a6bb423d936d)
+- Zig: [What is Zig's “Colorblind” Async/Await?](https://kristoff.it/blog/zig-colorblind-async-await/)
 
 ## Structured Concurrency
 
@@ -150,8 +156,8 @@
 
 ### Tools
 
-- Rust: https://github.com/tokio-rs/loom
-- Kotlin: https://github.com/Kotlin/kotlinx-lincheck
+- Rust: [Loom - concurrency permutation testing](https://github.com/tokio-rs/loom)
+- Kotlin: [Lincheck - framework for testing concurrent](https://github.com/Kotlin/kotlinx-lincheck)
 
 ## Fearless Concurrency
 
@@ -192,6 +198,7 @@
 
 - [Roman Elizarov — Lock-Free Algorithms for Kotlin Coroutines](https://www.youtube.com/watch?v=W2dOOBN1OQI)
 - [Lock-free структуры данных](https://habr.com/en/post/195770/)
+- [Zig's I/O and Concurrency Story by:King Protty](https://www.youtube.com/watch?v=Ul8OO4vQMTw) [Video]
 
 ---
 
