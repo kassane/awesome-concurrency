@@ -30,6 +30,8 @@
 - [`intro.multithread`](https://eel.is/c++draft/intro.multithread)
 - [`atomics.order`](https://eel.is/c++draft/atomics.order)
 - [`atomics.fences`](https://eel.is/c++draft/atomics.fences)
+- [`std::memory_order`](https://en.cppreference.com/w/cpp/atomic/memory_order)
+- [C++ reference - Memory Model](https://en.cppreference.com/w/cpp/language/memory_model)
 
 [Index](cpp-mm-index.md)
 
@@ -69,17 +71,20 @@
 
 - [Project Loom: Fibers and Continuations for the Java Virtual Machine](https://cr.openjdk.java.net/~rpressler/loom/Loom-Proposal.html)
 - [State of Loom, Part 1](http://cr.openjdk.java.net/~rpressler/loom/loom/sol1_part1.html), [Part 2](http://cr.openjdk.java.net/~rpressler/loom/loom/sol1_part2.html)
+- [C++ / Distinguishing coroutines and fibers](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4024.pdf)
+- [Lightweight concurrency in lua](https://wingolog.org/archives/2018/05/16/lightweight-concurrency-in-lua)
 
 ## Coroutines
 
 ### Stackless
-- [Stackless Coroutine in Asio](http://think-async.com/Asio/asio-1.12.2/doc/asio/reference/coroutine.html)
+- [Stackless Coroutine in Asio](http://think-async.com/Asio/asio-1.28.0/doc/asio/reference/coroutine.html)
 - [On Duff's Device and Coroutines](https://research.swtch.com/duff)
 
 ### Assymmetric Transfer
 - [Coroutine Theory](https://lewissbaker.github.io/2017/09/25/coroutine-theory)
 - [C++ Coroutines: Understanding operator co_await](https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await)
 - [C++ Coroutines: Understanding the promise type](https://lewissbaker.github.io/2018/09/05/understanding-the-promise-type)
+- [Revisiting Coroutines by Ana Lúcia de Moura and Roberto Ierusalimschy](http://www.inf.puc-rio.br/~roberto/docs/MCC15-04.pdf)
 
 ## Stacks
 
@@ -87,6 +92,8 @@
 - [Rust / Abandoning segmented stacks in Rust](https://mail.mozilla.org/pipermail/rust-dev/2013-November/006314.html)
 - [Go / How Stacks are Handled in Go](https://blog.cloudflare.com/how-stacks-are-handled-in-go/), [Continious Stacks Design Doc](https://docs.google.com/document/d/1wAaf1rYoM4S4gtnPh0zOlGzWtrZFQ5suE8qr2sD8uWQ/pub)
 - [Rust / Futures and Segmented Stacks](https://without.boats/blog/futures-and-segmented-stacks/)
+- [Continuation Passing for C - A space-efficient implementation of concurrency](https://www.irif.fr/~jch/cpc.pdf)
+- [C++ / call/cc (call-with-current-continuation): A low-level API for stackful context switching](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/p0534r3.pdf)
 
 ## Schedulers
 
@@ -103,7 +110,7 @@
 - [Linux](https://github.com/torvalds/linux/blob/291009f656e8eaebbdfd3a8d99f6b190a9ce9deb/kernel/sched/core.c#L4921)
 - [Golang](https://golang.org/src/runtime/proc.go)
 - [Rust / Tokio](https://github.com/tokio-rs/tokio/blob/master/tokio/src/runtime/scheduler/multi_thread/worker.rs)
-- [Zig](https://github.com/ziglang/zig/blob/master/lib/std/event/loop.zig)
+- [Zig](https://github.com/ziglang/zig/blob/master/lib/std/Thread.zig)
 
 ## Channels
 
@@ -198,7 +205,8 @@
 
 - [Roman Elizarov — Lock-Free Algorithms for Kotlin Coroutines](https://www.youtube.com/watch?v=W2dOOBN1OQI)
 - [Lock-free структуры данных](https://habr.com/en/post/195770/)
-- [Zig's I/O and Concurrency Story by:King Protty](https://www.youtube.com/watch?v=Ul8OO4vQMTw) [Video]
+- [Zig's I/O and Concurrency Story by King Protty](https://www.youtube.com/watch?v=Ul8OO4vQMTw) [Video]
+- [CppCon 2016 - "Elegant Asynchronous Code" by Nat Goodspeed](https://www.youtube.com/watch?v=e-NUmyBou8Q) [Video]
 
 ---
 
@@ -229,3 +237,10 @@
 - [Глава 15 – Intel TSX Recommendations](https://software.intel.com/sites/default/files/managed/9e/bc/64-ia-32-architectures-optimization-manual.pdf)
 - [TSX Anti-Patterns](https://software.intel.com/en-us/articles/tsx-anti-patterns-in-lock-elision-code)
 - [Lock Elision Implementation Guide](https://sourceware.org/glibc/wiki/LockElisionGuide)
+
+---
+
+## Acknowledgments
+
+**Author:** [Roman Lipovsky](https://gitlab.com/Lipovsky)
+Original repository: [from Gitlab - Awesome-Concurrency](https://gitlab.com/Lipovsky/awesome-concurrency)
