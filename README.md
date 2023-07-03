@@ -144,6 +144,7 @@
 - [Roman Elizarov – Structured concurrency](https://medium.com/@elizarov/structured-concurrency-722d765aa952)
 - [Lewis Baker – Structured Concurrency: Writing Safer Concurrent Code with Coroutines and Algorithms](https://www.youtube.com/watch?v=1Wy5sq3s2rg)
 - [Eric Niebler – Structured Concurrency](https://ericniebler.com/2020/11/08/structured-concurrency/)
+- [Josua Wuyts - Tree-Structured Concurrency](https://blog.yoshuawuyts.com/tree-structured-concurrency/)
 
 ## Cancellation
 
