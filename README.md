@@ -22,6 +22,7 @@
 - [Weak memory concurrency in C/C++11](https://youtu.be/mOqu8vGSysc)
 - [Weak Memory Consistency](https://people.mpi-sws.org/~viktor/wmc/)
 - [Weakly Consistent Concurrency](https://www.cs.tau.ac.il/~orilahav/seminar18/index.html)
+- [Memory Order in C++](https://www.sobyte.net/post/2022-06/cpp-memory-order/)
 
 ### Examples
 
@@ -71,7 +72,8 @@
 
 - [Project Loom: Fibers and Continuations for the Java Virtual Machine](https://cr.openjdk.java.net/~rpressler/loom/Loom-Proposal.html)
 - [State of Loom, Part 1](http://cr.openjdk.java.net/~rpressler/loom/loom/sol1_part1.html), [Part 2](http://cr.openjdk.java.net/~rpressler/loom/loom/sol1_part2.html)
-- [C++ / Distinguishing coroutines and fibers](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4024.pdf)
+- [C++ / Distinguishing coroutines and fibers](https://wg21.link/n4024)
+- [C++ / Fibers under the magnifying glass](https://wg21.link/p1364)
 - [Lightweight concurrency in lua](https://wingolog.org/archives/2018/05/16/lightweight-concurrency-in-lua)
 
 ## Coroutines
@@ -84,6 +86,7 @@
 - [Coroutine Theory](https://lewissbaker.github.io/2017/09/25/coroutine-theory)
 - [C++ Coroutines: Understanding operator co_await](https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await)
 - [C++ Coroutines: Understanding the promise type](https://lewissbaker.github.io/2018/09/05/understanding-the-promise-type)
+- [Writing custom C++20 coroutine systems](https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/coroutines-c++20/)
 - [Revisiting Coroutines by Ana Lúcia de Moura and Roberto Ierusalimschy](http://www.inf.puc-rio.br/~roberto/docs/MCC15-04.pdf)
 
 ## Stacks
