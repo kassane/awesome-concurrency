@@ -6,6 +6,8 @@
 - [ZIO](https://zio.dev/), [github](https://github.com/zio/zio) (Scala)
 - [Cats Effect](https://typelevel.org/cats-effect/), [github](https://github.com/typelevel/cats-effect) (Scala)  
 - [Trio](https://trio.readthedocs.io/en/stable/), [github](https://github.com/python-trio/trio) (Python)
+- [libxev](https://github.com/mitchellh/libxev) (Zig)
+- [zefi](https://github.com/kprotty/zefi) (Zig)
   
 ## C++
 
@@ -15,6 +17,8 @@
   - [fibers](https://github.com/facebook/folly/tree/master/folly/fibers)
 - [libunifex](https://github.com/facebookexperimental/libunifex)
 - [asio](https://github.com/chriskohlhoff/asio)
+- [boost.async](https://github.com/klemens-morgenstern/async) (WiP)
 - [marl](https://github.com/google/marl)  
 - [boost.fiber](https://github.com/boostorg/fiber)
 - [cppcoro](https://github.com/lewissbaker/cppcoro)
+- [libcoro](https://github.com/jbaldwin/libcoro)
