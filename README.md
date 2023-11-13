@@ -50,6 +50,11 @@
 - [Go Memory Model](https://golang.org/ref/mem)
 - [Don't be clever](https://golang.org/ref/mem#tmp_1)
 
+#### D
+
+- [D Memory Model](https://dlang.org/spec/intro.html#memory-model)
+- [D Wiki - C++ to D Concurrency](https://wiki.dlang.org/Programming_in_D_for_C%2B%2B_Programmers#Concurrency)
+
 #### LLVM
 
 - [LLVM Atomic Instructions and Concurrency Guide](https://llvm.org/docs/Atomics.html)
@@ -75,6 +80,7 @@
 - [C++ / Distinguishing coroutines and fibers](https://wg21.link/n4024)
 - [C++ / Fibers under the magnifying glass](https://wg21.link/p1364)
 - [Lightweight concurrency in lua](https://wingolog.org/archives/2018/05/16/lightweight-concurrency-in-lua)
+- [D - Fibers](http://ddili.org/ders/d.en/fibers.html)
 
 ## Coroutines
 
@@ -148,6 +154,7 @@
 - [Lewis Baker – Structured Concurrency: Writing Safer Concurrent Code with Coroutines and Algorithms](https://www.youtube.com/watch?v=1Wy5sq3s2rg)
 - [Eric Niebler – Structured Concurrency](https://ericniebler.com/2020/11/08/structured-concurrency/)
 - [Josua Wuyts - Tree-Structured Concurrency](https://blog.yoshuawuyts.com/tree-structured-concurrency/)
+- [Sebastiaan Koppe - Structured Concurrency in D(Video)](https://youtu.be/hJhNhIeq29U)
 
 ## Cancellation
 
@@ -175,6 +182,7 @@
 - Rust: [Fearless Concurrency](https://doc.rust-lang.org/book/ch16-00-concurrency.html)
 - Pony: [Reference capabilities](https://www.ponylang.io/learn/#reference-capabilities)
 - C++: [Clang Thread-Safety Analysis](https://research.google.com/pubs/archive/42958.pdf)
+- D: [Fearless - Safe Concurrency in D](https://atilaoncode.blog/2018/11/06/implementing-rusts-stdsyncmutex-in-d/)
 - [Joe Duffy (Project Midori) – 15 Years of Concurrency](http://joeduffyblog.com/2016/11/30/15-years-of-concurrency/)
 
 ---
@@ -204,6 +212,7 @@
 - [Differential Reference Counting](http://www.1024cores.net/home/lock-free-algorithms/object-life-time-management/differential-reference-counting)
 - [Implementing a Lock-free `atomic_shared_ptr`](https://github.com/brycelelbach/cppnow_presentations_2016/blob/master/01_wednesday/implementing_a_lock_free_atomic_shared_ptr.pdf)
 - [folly / `AtomicSharedPtr`](https://github.com/facebook/folly/blob/master/folly/concurrency/AtomicSharedPtr.h)
+- [Automem Hands Free RAII in D](https://dlang.org/blog/2017/04/28/automem-hands-free-raii-for-d/)
 
 ### Misc
 
