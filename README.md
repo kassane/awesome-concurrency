@@ -12,10 +12,17 @@
 - [Atomic reference counting (with Zig code samples)](https://ravendb.net/articles/atomic-reference-counting-with-zig-code-samples)
 - [Memory Barriers: a Hardware View for Software Hackers](http://www.puppetmastertrading.com/images/hwViewForSwHackers.pdf)
 - [Memory Models: A Case For Rethinking Parallel Languages and Hardware](https://cacm.acm.org/magazines/2010/8/96610-memory-models-a-case-for-rethinking-parallel-languages-and-hardware/pdf)
-- [Go Memory Model](https://golang.org/ref/mem), [Don't be clever](https://golang.org/ref/mem#tmp_1)
 - [Java Memory Model](https://docs.oracle.com/javase/specs/jls/se7/html/jls-17.html#jls-17.4)
 - [Foundations of the C++ Concurrency Memory Model](http://www.hpl.hp.com/techreports/2008/HPL-2008-56.pdf)
-- [Explanation of the Linux-Kernel Memory Consistency Model](https://github.com/torvalds/linux/tree/master/tools/memory-model/Documentation) 
+- [Explanation of the Linux-Kernel Memory Consistency Model](https://github.com/torvalds/linux/tree/master/tools/memory-model/Documentation)
+  - [Frightening Small Children and Disconcerting Grown-ups: Concurrency in the Linux Kernel](http://pauillac.inria.fr/~maranget/papers/asplos2018.pdf)
+- [Memory Models](https://research.swtch.com/mm) by [Russ Cox](https://research.swtch.com/)
+  - [Hardware MM](https://research.swtch.com/hwmm)
+  - [Programming Language MM](https://research.swtch.com/plmm)
+  - [Updating the Go MM](https://research.swtch.com/gomm)
+- [Repairing Sequential Consistency in C/C++11](https://plv.mpi-sws.org/scfix/paper.pdf) + [P0668R5: Revising the C++ memory model](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p0668r5.html)
+- [A Promising Semantics for Relaxed-Memory Concurrency](https://sf.snu.ac.kr/promise-concurrency/)
+- [Bounding Data Races in Space and Time](https://kcsrk.info/papers/pldi18-memory.pdf) + [Multicore OCaml Memory model](https://v2.ocaml.org/manual/memorymodel.html)
 - [C++ Memory Ordering at Compile Time](https://preshing.com/20120625/memory-ordering-at-compile-time/)
 - [The Problem of Programming Language Concurrency Semantics](https://www.cl.cam.ac.uk/~jp622/the_problem_of_programming_language_concurrency_semantics.pdf)
 - [Understandnig Atomics and Memory Ordering](http://kprotty.me/2021/04/08/understanding-atomics-and-memory-ordering.html)
@@ -75,6 +82,8 @@
 
 ## Fibers
 
+- [Fibers in C++: Understanding the basics](https://agraphicsguynotes.com/posts/fiber_in_cpp_understanding_the_basics/)
+- [Fibers, Oh My!](https://graphitemaster.github.io/fibers/)
 - [Project Loom: Fibers and Continuations for the Java Virtual Machine](https://cr.openjdk.java.net/~rpressler/loom/Loom-Proposal.html)
 - [State of Loom, Part 1](http://cr.openjdk.java.net/~rpressler/loom/loom/sol1_part1.html), [Part 2](http://cr.openjdk.java.net/~rpressler/loom/loom/sol1_part2.html)
 - [C++ / Distinguishing coroutines and fibers](https://wg21.link/n4024)
@@ -120,6 +129,7 @@
 - [Golang](https://golang.org/src/runtime/proc.go)
 - [Rust / Tokio](https://github.com/tokio-rs/tokio/blob/master/tokio/src/runtime/scheduler/multi_thread/worker.rs)
 - [Zig](https://github.com/ziglang/zig/blob/master/lib/std/Thread.zig)
+- [Dlang](https://github.com/dlang/phobos/blob/v2.105.3/std/concurrency.d#L1659)
 
 ## Channels
 
@@ -209,6 +219,7 @@
 ### Memory Management
 
 - [Hazard Pointers: Safe Memory Reclamation for Lock-Free Objects](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.395.378&rep=rep1&type=pdf)
+- [Epoch-Based Memory Reclamation](http://csng.cs.toronto.edu/publication_files/0000/0159/jpdc07.pdf)
 - [Differential Reference Counting](http://www.1024cores.net/home/lock-free-algorithms/object-life-time-management/differential-reference-counting)
 - [Implementing a Lock-free `atomic_shared_ptr`](https://github.com/brycelelbach/cppnow_presentations_2016/blob/master/01_wednesday/implementing_a_lock_free_atomic_shared_ptr.pdf)
 - [folly / `AtomicSharedPtr`](https://github.com/facebook/folly/blob/master/folly/concurrency/AtomicSharedPtr.h)
