@@ -30,6 +30,7 @@
 - [Weak Memory Consistency](https://people.mpi-sws.org/~viktor/wmc/)
 - [Weakly Consistent Concurrency](https://www.cs.tau.ac.il/~orilahav/seminar18/index.html)
 - [Memory Order in C++](https://www.sobyte.net/post/2022-06/cpp-memory-order/)
+- [A Relaxed Guide to memory_order_relaxed - by Paul McKenney & Hans Boehm](https://www.youtube.com/watch?v=cWkUqK71DZ0)
 
 ### Examples
 
@@ -99,8 +100,6 @@
 
 ### Assymmetric Transfer
 - [Coroutine Theory](https://lewissbaker.github.io/2017/09/25/coroutine-theory)
-- [C++ Coroutines: Understanding operator co_await](https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await)
-- [C++ Coroutines: Understanding the promise type](https://lewissbaker.github.io/2018/09/05/understanding-the-promise-type)
 - [Writing custom C++20 coroutine systems](https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/coroutines-c++20/)
 - [Revisiting Coroutines by Ana Lúcia de Moura and Roberto Ierusalimschy](http://www.inf.puc-rio.br/~roberto/docs/MCC15-04.pdf)
 
@@ -124,17 +123,17 @@
 
 ### Impls
 
-- [xv6](https://github.com/guilleiguaran/xv6/blob/4ce832ddd280a4cea36e16115ddeaea74213314e/proc.c#L258)
-- [Linux](https://github.com/torvalds/linux/blob/291009f656e8eaebbdfd3a8d99f6b190a9ce9deb/kernel/sched/core.c#L4921)
-- [Golang](https://golang.org/src/runtime/proc.go)
-- [Rust / Tokio](https://github.com/tokio-rs/tokio/blob/master/tokio/src/runtime/scheduler/multi_thread/worker.rs)
-- [Zig](https://github.com/ziglang/zig/blob/master/lib/std/Thread.zig)
-- [Dlang](https://github.com/dlang/phobos/blob/v2.105.3/std/concurrency.d#L1659)
+- [Golang] [Runtime](https://golang.org/src/runtime/proc.go)
+- [Rust] [Tokio Multi-Threaded Runtime](https://github.com/tokio-rs/tokio/blob/master/tokio/src/runtime/scheduler/multi_thread/worker.rs)
+- [Dlang] [Phobos - Multiple Declarations](https://github.com/dlang/phobos/blob/master/std/concurrency.d#L1287)
+- [Kotlin] [Coroutine Runtime](https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/jvm/src/scheduling/CoroutineScheduler.kt)
+- [Scala] [Cats Effect](https://github.com/typelevel/cats-effect/blob/series/3.x/core/jvm/src/main/scala/cats/effect/unsafe/WorkStealingThreadPool.scala)
 
 ## Channels
 
 - [Go channels on steroids](https://docs.google.com/document/d/1yIAYmbvL3JxOKOjuCyon7JhW4cSv1wy5hC0ApeGMV9s/pub)
 - [Scalable FIFO Channels for Programming via Communicating Sequential Processes](https://nkoval.com/publications/europar19-channels.pdf)
+- [Fast and Scalable Channels in Kotlin Coroutines](https://arxiv.org/pdf/2211.04986.pdf)
 
 ## Asynchronous Programming
 
@@ -147,7 +146,11 @@
 
 - C#: [Механика asnyc/await в C#](https://habr.com/ru/post/260217/)
 - Kotlin: [Coroutines / Implementation details](https://github.com/Kotlin/KEEP/blob/master/proposals/coroutines.md#implementation-details)
-- C++: [Understanding operator co_await](https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await), [Understanding the promise type](https://lewissbaker.github.io/2018/09/05/understanding-the-promise-type)
+- C++:
+  - [Understanding operator co_await](https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await)
+  - [Understanding the promise type](https://lewissbaker.github.io/2018/09/05/understanding-the-promise-type)
+  - [Understanding the Compiler Transform](https://lewissbaker.github.io/2022/08/27/understanding-the-compiler-transform)
+  - [Understanding Symmetric Transfer](https://lewissbaker.github.io/2020/05/11/understanding_symmetric_transfer)
 
 #### Syntax
 - [What Color is Your Function?](https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/), [Hacker news](https://news.ycombinator.com/item?id=8984648)
@@ -253,7 +256,6 @@
 - [Isolation levels vs. Consistency levels](https://fauna.com/blog/demystifying-database-systems-part-4-isolation-levels-vs-consistency-levels)
 
 ## Hardware Transactional Memory
-
 - [Maurice Herlihy – Transactional Memory](https://www.youtube.com/watch?v=ZkUrl8BZHjk), [slides](http://neerc.ifmo.ru/sptcc/slides/slides-herlihy.pdf)
 - [Gil Tene – Understanding Hardware Transactional Memory](https://www.youtube.com/watch?v=0jy4Sc_IY7o)
 - [Is Parallel Programming Hard, And, If So, What Can You Do About It?](https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html), 17.3
@@ -261,6 +263,11 @@
 - [Глава 15 – Intel TSX Recommendations](https://software.intel.com/sites/default/files/managed/9e/bc/64-ia-32-architectures-optimization-manual.pdf)
 - [TSX Anti-Patterns](https://software.intel.com/en-us/articles/tsx-anti-patterns-in-lock-elision-code)
 - [Lock Elision Implementation Guide](https://sourceware.org/glibc/wiki/LockElisionGuide)
+
+## IO
+- [Lord of io_uring](https://unixism.net/loti/)
+- [A Universal I/O Abstraction for C++](https://cor3ntin.github.io/posts/iouring/#reactors-select-poll-epoll)
+- [A Programmer-Friendly I/O Abstraction Over io_uring and kqueue](https://tigerbeetle.com/blog/a-friendly-abstraction-over-iouring-and-kqueue/)
 
 ---
 
