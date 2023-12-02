@@ -264,6 +264,13 @@
 - [TSX Anti-Patterns](https://software.intel.com/en-us/articles/tsx-anti-patterns-in-lock-elision-code)
 - [Lock Elision Implementation Guide](https://sourceware.org/glibc/wiki/LockElisionGuide)
 
+## Software Transactional Memory
+
+- [D] [Software Transactional Memory in D (Video)](https://www.youtube.com/watch?v=2P3OUuBEBNc) by Brad Roberts
+- [C++] [CppCon 2015 - “Transactional Memory in Practice"](https://www.youtube.com/watch?v=k20nWb9fHj0) by Brett Hall
+- [Scala, ZIO] [Introduction to Software Transactional Memory](https://zio.dev/reference/stm/)
+- [A (brief) retrospective on transactional memory](https://joeduffyblog.com/2010/01/03/a-brief-retrospective-on-transactional-memory/) by Joe Duffy
+
 ## IO
 - [Lord of io_uring](https://unixism.net/loti/)
 - [A Universal I/O Abstraction for C++](https://cor3ntin.github.io/posts/iouring/#reactors-select-poll-epoll)
