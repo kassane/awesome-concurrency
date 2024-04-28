@@ -30,6 +30,7 @@
 - [Weak Memory Consistency](https://people.mpi-sws.org/~viktor/wmc/)
 - [Weakly Consistent Concurrency](https://www.cs.tau.ac.il/~orilahav/seminar18/index.html)
 - [Memory Order in C++](https://www.sobyte.net/post/2022-06/cpp-memory-order/)
+- [Atomics And Concurrency](https://redixhumayun.github.io/systems/2024/01/03/atomics-and-concurrency.html)
 - [A Relaxed Guide to memory_order_relaxed - by Paul McKenney & Hans Boehm](https://www.youtube.com/watch?v=cWkUqK71DZ0)
 
 ### Examples
@@ -232,6 +233,7 @@
 
 - [Roman Elizarov — Lock-Free Algorithms for Kotlin Coroutines](https://www.youtube.com/watch?v=W2dOOBN1OQI)
 - [Lock-free структуры данных](https://habr.com/en/post/195770/)
+- [LockFree Programming a_Mental Model - Xorvoid](https://xorvoid.com/lockfree_programming_a_mental_model.html)
 - [Zig's I/O and Concurrency Story by King Protty](https://www.youtube.com/watch?v=Ul8OO4vQMTw) [Video]
 - [CppCon 2016 - "Elegant Asynchronous Code" by Nat Goodspeed](https://www.youtube.com/watch?v=e-NUmyBou8Q) [Video]
 
